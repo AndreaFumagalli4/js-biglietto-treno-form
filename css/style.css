@@ -11,3 +11,8 @@ header section#header{
 section#header h1{
     font-size: 3rem;
 }
+
+button#button{
+    background-color: #00a88f;
+    border-color: #00a88f;
+}

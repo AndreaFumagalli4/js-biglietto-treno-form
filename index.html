@@ -31,16 +31,26 @@
         </header>
 
         <main class="pt-5">
-            <label for="distance">Quanti chilometri farai?</label>
-            <input type="text" id="distance">
-            <label for="age">Quanti anni hai?</label>
-            <input type="number" id="age">
-            <button id="button">
-                Avanti!
-            </button>
-            <p id="output">
-                Prezzo del biglietto:
-            </p>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-8 p-3">
+                        <form class="mb-3">
+                            <div class="mb-3">
+                            <label for="distance" class="form-label">Quanti chilometri farai?</label>
+                            <input type="text" class="form-control" id="distance" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="age" class="form-label">Quanti anni hai?</label>
+                                <input type="number" class="form-control" id="age">
+                            </div>
+                            <button type="submit" id="button" class="btn btn-primary">Submit</button>
+                        </form>
+                        <p id="output">
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <!-- Implementazione JS -->
