@@ -20,15 +20,15 @@ const button = document.querySelector('a button');
 
 button.addEventListener('click', function(){
 
-    let ticketPrice = distance.value * 0.2762;
+    let ticketPrice = parseInt(distance.value) * 0.2762;
 
     console.log(distance.value);
     console.log(age.value);
     console.log(ticketPrice);
     
-    if ( age.value < 18 ){
+    if ( parseInt(age.value) < 18 ){
         ticketPrice = ticketPrice * 0.825;
-    } else if ( age.value > 65 ){
+    } else if ( parseInt(age.value) > 65 ){
         ticketPrice = ticketPrice * 0.667;
     }
 
