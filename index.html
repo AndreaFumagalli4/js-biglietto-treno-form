@@ -33,15 +33,23 @@
         <main class="pt-5">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-8 p-3">
+                    <div class="col-6 p-3">
                         <form class="mb-3">
                             <div class="mb-3">
+                                <label for="name" class="form-label">Qual'è il tuo nome?</label>
+                                <input type="text" class="form-control" id="name" autocomplete="off">
+                                </div>
+                            <div class="mb-3">
+                                <label for="surname" class="form-label">Qual'è il tuo cognome?</label>
+                                <input type="text" class="form-control" id="surname" autocomplete="off">
+                                </div>
+                            <div class="mb-3">
                             <label for="distance" class="form-label">Quanti chilometri farai?</label>
-                            <input type="text" class="form-control" id="distance" aria-describedby="emailHelp">
+                            <input type="text" class="form-control" id="distance" autocomplete="off">
                             </div>
                             <div class="mb-3">
                                 <label for="age" class="form-label">Quanti anni hai?</label>
-                                <input type="number" class="form-control" id="age">
+                                <input type="number" class="form-control" id="age" autocomplete="off">
                             </div>
                             <button type="submit" id="button" class="btn btn-primary">Submit</button>
                         </form>

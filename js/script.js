@@ -8,6 +8,10 @@
 
 // 1. Distance and age
 
+const firstName = document.getElementById('name');
+
+const secondName = document.getElementById('surname');
+
 const distance = document.getElementById('distance');
 
 const age = document.getElementById('age');
@@ -22,6 +26,8 @@ button.addEventListener('click', function(){
 
     let ticketPrice = parseInt(distance.value) * 0.2762;
 
+    console.log(firstName.value);
+    console.log(secondName.value);
     console.log(distance.value);
     console.log(age.value);
     console.log(ticketPrice);
