@@ -16,7 +16,7 @@ const output = document.getElementById('output');
 
 // 2. Ticket count
 
-const button = document.querySelector('a button');
+const button = document.getElementById('button');
 
 button.addEventListener('click', function(){
 
